@@ -23,11 +23,6 @@ cv2.namedWindow("Tracking")
 
 frame = cv2.imread('Count_Object_Of_Different_Types8.png')
 frame = ResizeWithAspectRatio(frame, width=480)
-while True:
-cv2.imshow("frame", frame)
 
-    key = cv2.waitKey(1)
-    if key == 27:
-        break
 
 cv2.destroyAllWindows()
